@@ -1,4 +1,5 @@
 import Compute
+import SotoS3FileTransfer
 
 @main
 struct App {
