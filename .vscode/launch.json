@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug EdgeApp",
+            "program": "${workspaceFolder:EdgeApp}/.build/debug/EdgeApp",
+            "args": [],
+            "cwd": "${workspaceFolder:EdgeApp}",
+            "preLaunchTask": "swift: Build Debug EdgeApp"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Release EdgeApp",
+            "program": "${workspaceFolder:EdgeApp}/.build/release/EdgeApp",
+            "args": [],
+            "cwd": "${workspaceFolder:EdgeApp}",
+            "preLaunchTask": "swift: Build Release EdgeApp"
+        }
+    ]
+}
